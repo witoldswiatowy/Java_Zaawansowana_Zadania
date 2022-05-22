@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 public class Storage {
@@ -26,7 +27,13 @@ public class Storage {
     public List<String> findValues(String searchedValue) {
         return mapOfStorage.entrySet()
                 .stream()
-                .filter(entry -> entry.getValue().contains(searchedValue))
+//              .filter(entry -> entry.getValue().contains(searchedValue))
+                .filter(new Predicate<Map.Entry<String, List<String>>>() {
+                    @Override
+                    public boolean test(Map.Entry<String, List<String>> entry) {
+                        return entry.getValue().contains(searchedValue);
+                    }
+                })
                 .map(entry -> entry.getKey())
 //                .map(Map.Entry::getKey) //to jest to samo co wyzej
 //                .toList(); //to jest dopiero od Java 17, a robi to samo co to nizej
