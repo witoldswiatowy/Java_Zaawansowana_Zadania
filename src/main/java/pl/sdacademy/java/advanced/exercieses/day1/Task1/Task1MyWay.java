@@ -1,4 +1,4 @@
-package pl.sdacademy.java.advanced.exercieses.day1;
+package pl.sdacademy.java.advanced.exercieses.day1.Task1;
 
 import java.util.ArrayList;
 import java.util.Collections;

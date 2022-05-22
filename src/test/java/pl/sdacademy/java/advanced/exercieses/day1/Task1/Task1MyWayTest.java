@@ -1,6 +1,7 @@
-package pl.sdacademy.java.advanced.exercieses.day1;
+package pl.sdacademy.java.advanced.exercieses.day1.Task1;
 
 import org.junit.jupiter.api.Test;
+import pl.sdacademy.java.advanced.exercieses.day1.Task1.Task1;
 
 import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
