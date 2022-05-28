@@ -1,4 +1,4 @@
-package pl.sdacademy.java.advanced.exercieses.day1;
+package pl.sdacademy.java.advanced.exercieses.day1.Task3;
 
 import java.util.*;
 import java.util.stream.Collectors;

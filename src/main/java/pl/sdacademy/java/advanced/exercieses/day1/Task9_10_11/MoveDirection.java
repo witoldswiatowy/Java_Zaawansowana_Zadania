@@ -1,4 +1,4 @@
-package pl.sdacademy.java.advanced.exercieses.day1.Task10;
+package pl.sdacademy.java.advanced.exercieses.day1.Task9_10_11;
 
 import lombok.Getter;
 import lombok.Setter;
