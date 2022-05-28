@@ -1,12 +1,9 @@
-package pl.sdacademy.java.advanced.exercieses.day1.Task17;
+package pl.sdacademy.java.advanced.exercieses.day2.Task17;
 
 import org.junit.jupiter.api.Test;
 
-import java.nio.file.LinkPermission;
-
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.within;
-import static org.junit.jupiter.api.Assertions.*;
 
 class MeasuredConverterTest {
 

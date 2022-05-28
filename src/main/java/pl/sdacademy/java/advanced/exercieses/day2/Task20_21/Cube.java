@@ -1,4 +1,4 @@
-package pl.sdacademy.java.advanced.exercieses.day1.Task20_21;
+package pl.sdacademy.java.advanced.exercieses.day2.Task20_21;
 
 public class Cube extends Shape3D {
     private final int a;

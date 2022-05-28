@@ -1,4 +1,4 @@
-package pl.sdacademy.java.advanced.exercieses.day1.Task16;
+package pl.sdacademy.java.advanced.exercieses.day2.Task16;
 
 import java.util.Arrays;
 

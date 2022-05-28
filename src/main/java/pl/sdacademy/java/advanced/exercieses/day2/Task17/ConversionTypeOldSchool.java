@@ -1,4 +1,4 @@
-package pl.sdacademy.java.advanced.exercieses.day1.Task17;
+package pl.sdacademy.java.advanced.exercieses.day2.Task17;
 
 public enum ConversionTypeOldSchool {
     METERS_TO_YARD(1.0936133),

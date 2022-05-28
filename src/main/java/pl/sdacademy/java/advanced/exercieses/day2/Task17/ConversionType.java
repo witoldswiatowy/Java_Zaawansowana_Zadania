@@ -1,4 +1,4 @@
-package pl.sdacademy.java.advanced.exercieses.day1.Task17;
+package pl.sdacademy.java.advanced.exercieses.day2.Task17;
 
 import java.util.function.Function;
 
