@@ -1,7 +1,7 @@
-package pl.sdacademy.java.advanced.exercieses.day2.Task25;
+package pl.sdacademy.java.advanced.exercieses.day2.Task24;
 
-import pl.sdacademy.java.advanced.exercieses.day2.Task25.exceptions.BasketEmptyException;
-import pl.sdacademy.java.advanced.exercieses.day2.Task25.exceptions.BasketFullException;
+import pl.sdacademy.java.advanced.exercieses.day2.Task24.exceptions.BasketEmptyException;
+import pl.sdacademy.java.advanced.exercieses.day2.Task24.exceptions.BasketFullException;
 
 public class Basket {
     private static final int MAX_CAPACITY = 10;
