@@ -2,7 +2,7 @@ package pl.sdacademy.java.advanced.exercieses.nbp;
 
 //import com.fasterxml.jackson.databind.ObjectMapper;
 
-import org.codehaus.jackson.map.ObjectMapper;
+//import org.codehaus.jackson.map.ObjectMapper;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -26,8 +26,8 @@ public class App {
         }
         System.out.println(result);
     }
-    ObjectMapper om = new ObjectMapper();
-    om.readValue(result, Root.class)
+//    ObjectMapper om = new ObjectMapper();
+//    om.readValue(result, Root.class)
 
 
 }
