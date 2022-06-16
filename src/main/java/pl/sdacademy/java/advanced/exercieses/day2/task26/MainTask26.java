@@ -25,17 +25,17 @@ public class MainTask26 {
 
         List<Car> carList = List.of(x500, gls_1, gls_2, xc90_1, xc90_2, xc60);
 
-//        Task26.showAllCar(carList);
-//        List<String> showAllModel = Task26.showAllModel(carList);
-//        System.out.println(showAllModel);
-//
-//        List<String> showAllManufacturerName = Task26.showAllManufacturerName(carList);
-//        List<Integer> showAllManufacturerFoundingYear = Task26.showAllManufacturerFoundingYear(carList);
-//        System.out.println(showAllManufacturerName);
-//        System.out.println(showAllManufacturerFoundingYear);
-//
-//        List<String> showAllModelName = Task26.showAllModelName(carList);
-//        System.out.println(showAllModelName);
+        Task26.showAllCar(carList);
+        List<String> showAllModel = Task26.showAllModel(carList);
+        System.out.println(showAllModel);
+
+        List<String> showAllManufacturerName = Task26.showAllManufacturerName(carList);
+        List<Integer> showAllManufacturerFoundingYear = Task26.showAllManufacturerFoundingYear(carList);
+        System.out.println(showAllManufacturerName);
+        System.out.println(showAllManufacturerFoundingYear);
+
+        List<String> showAllModelName = Task26.showAllModelName(carList);
+        System.out.println(showAllModelName);
 
         List<Integer> showAllCarWithEvenYears = Task26.showAllCarWithEvenYears(carList);
         System.out.println(showAllCarWithEvenYears);
