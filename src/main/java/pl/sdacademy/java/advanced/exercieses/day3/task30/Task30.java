@@ -23,9 +23,14 @@ public class Task30 {
         } catch (IOException e) {
             System.out.println("Exception during opening file: " + e);
         }
-        List<String> reservedContents = reverseFileContents(contents);
+        List<String> reversedContents = reverseFileContents(contents);
         Path outputFile = reverseFileName(inputeFile);
         System.out.println(outputFile);
+        try {
+            saveFile(outputFile, reversedContents);
+        } catch(IOException e) {
+            System.out.println("Exception during saving file: " + e);
+        }
 
     }
 
@@ -46,7 +51,8 @@ public class Task30 {
     }
 
     private static Path reverseFileName (Path inputFile){
-        String fileName = inputFile.toFile().getName();
+        // założenie: pierwsza kropka rozpoczyna rozszerzenie pliku
+        String fileName = inputFile.toFile().getName(); // course.txt
         String fileExtension = "";
         int index = fileName.indexOf(".");
         if (index > 0){      //jeżeli większe od zero to mamy rozszerzenie
@@ -58,5 +64,9 @@ public class Task30 {
                 .append(fileExtension)
                 .toString();
         return inputFile.getParent().resolve(reversedInputFile);
+    }
+
+    private static void saveFile(Path outputFile, List<String> content) throws IOException {
+        Files.write(outputFile, content);
     }
 }
